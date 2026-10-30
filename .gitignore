@@ -1,0 +1,15 @@
+.env
+*.env
+!.env.example
+node_modules/
+dist/
+.expo/
+.idea/
+.vscode/
+*.iml
+.gradle/
+build/
+android/app/build/
+ios/Pods/
+*.log
+.DS_Store

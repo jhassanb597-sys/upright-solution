@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Upright Solution",
+    "slug": "upright-solution",
+    "description": "Upright Solution - Karachi Real Estate Made Easy",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "enabled": false
+    },
+    "scheme": "uprightsolution",
+    "ios": {
+      "bundleIdentifier": "com.uprightsolution.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.uprightsmartsolutions.property",
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "expo-status-bar",
+      "expo-image",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "366bd581-d092-4dec-8a9a-db16e8cf267a"
+      }
+    }
+  }
+}
