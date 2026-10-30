@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Upright Solution
 
 **Upright Solution - Karachi Real Estate Made Easy**
@@ -21,3 +22,7 @@ app falls back to 8 built-in Karachi sample properties (`src/data/listings.ts`).
 ## Android
 
 Package: `com.uprightsolution.app`. See `SIGNING.md` for release signing.
+=======
+# upright-solution
+Upright Solutions - React Native Real Estate &amp; Multi-Service Super App | Property, Legal, Software, Construction, Finance Services
+>>>>>>> 7e23babeef704e4fcce0f0ba66ca96f569a002dc
